@@ -1,3 +1,4 @@
+import 'package:beats_store_concept/src/widgets/cards_view.dart';
 import 'package:beats_store_concept/src/widgets/custom_appbar.dart';
 import 'package:beats_store_concept/src/widgets/fondo_circular.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,7 @@ class HomePage extends StatelessWidget {
                 children: <Widget>[
                   CustomAppBar(),
                   _Header(),
+                  CardsView(),
                 ],
               ),
             ),
